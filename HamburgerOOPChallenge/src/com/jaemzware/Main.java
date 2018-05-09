@@ -9,6 +9,7 @@ public class Main {
 
 	    hamburger.setHasLettuce(true);
 	    hamburger.setHasTomato(true);
+	    hamburger.setHasPickle(true);
 	    healthyBurger.setHasOnion(true);
 
 	    System.out.println(hamburger.ingredients().toString() +  hamburger.computePrice());
